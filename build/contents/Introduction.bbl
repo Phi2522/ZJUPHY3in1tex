@@ -1,0 +1,26 @@
+\begin{thebibliography}{2}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax\else
+  \urlstyle{same}\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \DeclareUrlCommand\doi{\urlstyle{rm}}
+  \def\eprint#1#2{#2}
+\else
+  \def\doi#1{\href{https://doi.org/#1}{\nolinkurl{#1}}}
+  \let\eprint\href
+\fi
+
+\bibitem[A(1970)]{article1}
+A A.
+\newblock Aaaaa\allowbreak[J/OL].
+\newblock AIAA, 1970, 24\allowbreak (4): 156-\&.
+\newblock DOI: \doi{11.4514/PhysRevLett.19.1980}.
+
+\bibitem[B(1970)]{article2}
+B B.
+\newblock Bbbbb\allowbreak[J/OL].
+\newblock BBIA, 1970, 24\allowbreak (4): 156-\&.
+\newblock DOI: \doi{11.4514/PhysRevLett.19.1980}.
+
+\end{thebibliography}
